@@ -15,6 +15,6 @@ Now, in order to perform supervised learning, we need to have some notion of gro
 
 In order to feed the data (each packet) into a neural network, we have to reduce to a constant length form. N-grams help us achieve this. The file [ng.py](./ng.py) calculates the unigram representation of each packet in the data. 
 
-# Feed to neural netwrk
+# Feed to neural network
 
 We have 3 NN frameworks; 2 fully connected and 1 recurrent framework. The 2 FCN frameworks are Autoencoders+Classification nets and just a Classification network. The recurrent framework uses LSTMs. The figure below summarizes all the scripts and their functions ![script_summary](./scriptSummary.PNG) 
